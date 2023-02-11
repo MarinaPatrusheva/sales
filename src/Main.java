@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SalesManager manager = new SalesManager(new int[]{23, 24, 56, 1});
+        System.out.println(manager.max());
+
     }
 }
